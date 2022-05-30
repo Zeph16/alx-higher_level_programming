@@ -9,7 +9,7 @@ int check_cycle(listint_t *list)
 {
 	listint_t *pointer;
 
-	if (list->next == NULL)
+	if (list == NULL || list->next == NULL)
 		return (0);
 	pointer = list->next;
 	while (pointer != NULL)
