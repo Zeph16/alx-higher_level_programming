@@ -1,10 +1,13 @@
 #!/usr/bin/python3
+import hidden_4
+
 
 def main():
-    list = dir("hidden_4.pyc")
-    for i in range(0, len(list)):
-        if list[i][0] != '_':
-            print("{}".format(list[i]))
+    list = dir(hidden_4)
+    for i in list:
+        if i.startswith("__"):
+            continue
+        print("{}".format(i))
 
 
 if __name__ == "__main__":
