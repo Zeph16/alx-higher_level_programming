@@ -15,15 +15,15 @@ def main():
     op = input[2]
     b = int(input[3])
     print("{} {} {} = ".format(a, op, b), end='')
-    if op ==  "+":
+    if op == "+":
         print(add(a, b))
-    elif op ==  "-":
+    elif op == "-":
         print(sub(a, b))
-    elif op ==  "*":
+    elif op == "*":
         print(mul(a, b))
-    elif op ==  "/":
+    elif op == "/":
         print(div(a, b))
-        
+
 
 if __name__ == "__main__":
     main()
