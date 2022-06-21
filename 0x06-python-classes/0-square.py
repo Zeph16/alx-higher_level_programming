@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
 """
-Square Class
+Class Demo
 """
 class Square:
+    """ Square Class """
     pass
