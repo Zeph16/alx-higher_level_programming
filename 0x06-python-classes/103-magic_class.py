@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """ Writing code out of bytecode """
 import math
 
