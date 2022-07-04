@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Task 8 - Rectangle
+Task 9 - Rectangle
 """
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
@@ -20,4 +20,4 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         """ String representation """
-        return ("[Rectangle] " + self.__width + "/" + self.__height)
+        return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
