@@ -13,7 +13,7 @@ load = __import__('6-load_from_json_file').load_from_json_file
 
 items = []
 if os.path.exists('add_item.json'):
-    total_list = load_JSON('add_item.json')
+    items = load_JSON('add_item.json')
 
 save(items + arg_list, "add_item.json")
 
