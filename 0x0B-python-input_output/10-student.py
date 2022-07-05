@@ -16,10 +16,10 @@ class Student:
     def to_json(self, attrs=None):
         """ Dictionary Rep / JSON """
         if attrs is not None and all(isinstance(item, str) for item in attrs):
-            returns = {}
+            ret = {}
             for p, r in self.__dict__.items():
                 if p in attrs:
-                    returns[p] = r
-            return returns
+                    ret[p] = r
+            return ret
         else
             return self.__dict__
