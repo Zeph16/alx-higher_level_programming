@@ -21,5 +21,5 @@ class Student:
                 if p in attrs:
                     ret[p] = r
             return ret
-        else
+        else:
             return self.__dict__

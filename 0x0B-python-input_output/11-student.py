@@ -21,7 +21,7 @@ class Student:
                 if p in attrs:
                     ret[p] = r
             return ret
-        else
+        else:
             return self.__dict__
 
     def reload_from_json(self, json):
