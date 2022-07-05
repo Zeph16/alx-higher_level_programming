@@ -15,5 +15,5 @@ items = []
 if os.path.exists('add_item.json'):
     items = load_JSON('add_item.json')
 
-save(items + arg_list, "add_item.json")
+save(items + args, "add_item.json")
 
