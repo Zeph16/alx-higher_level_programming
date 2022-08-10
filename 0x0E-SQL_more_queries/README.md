@@ -1,1 +1,1 @@
-SQL more queries
+Second MYSQL project - More queries
