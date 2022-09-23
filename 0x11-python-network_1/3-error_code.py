@@ -1,4 +1,4 @@
-#!/usr/bin/pytho
+#!/usr/bin/python3
 """
 Python script that takes in a URL, sends a request and displays
 the body of the response (handling HTTP errors)
