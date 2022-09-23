@@ -16,5 +16,5 @@ if __name__ == "__main__":
         for i in range(0, 10):
             print("{}: {}".format(json_o[i].get('sha'), json_o[i].get('commit')
                                   .get('author').get('name')))
-    except:
+    except Exception as ex:
         pass
